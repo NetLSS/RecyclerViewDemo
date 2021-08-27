@@ -5,6 +5,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
+import com.google.android.material.snackbar.Snackbar
 import com.lilcode.example.recyclerviewdemo.databinding.CardLayoutBinding
 
 class RecyclerAdapter : RecyclerView.Adapter<RecyclerAdapter.ViewHolder>() {
@@ -37,6 +38,15 @@ class RecyclerAdapter : RecyclerView.Adapter<RecyclerAdapter.ViewHolder>() {
     )
 
     inner class ViewHolder(private val binding: CardLayoutBinding) : RecyclerView.ViewHolder(binding.root) {
+
+        init {
+            binding.root.setOnClickListener {
+                var position: Int = adapterPosition + 1
+
+                Snackbar.make(it, "Click detected on item $position", Snackbar.LENGTH_LONG).setAction("Action", null).show()
+            }
+        }
+
         fun bind(position: Int) {
             binding.itemTitle.text = titles[position]
             binding.itemDetail.text = details[position]

@@ -17,3 +17,5 @@ Android RecyclerView, CardView Demo project
             ...
             app:layout_scrollFlags="scroll|enterAlways"/>
 ```
+
+![mp4](https://i.imgur.com/A8HcJDu.mp4)

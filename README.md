@@ -18,14 +18,4 @@ Android RecyclerView, CardView Demo project
             app:layout_scrollFlags="scroll|enterAlways"/>
 ```
 
-
-<figure class="video_container">
-  <video controls="true" allowfullscreen="true" poster="path/to/poster_image.png">
-    <source src="https://i.imgur.com/A8HcJDu.mp4" type="video/mp4">
-  </video>
-</figure>
-
-<video controls width="250">
-    <source src="[/media/cc0-videos/flower.mp4](https://i.imgur.com/A8HcJDu.mp4)"
-            type="video/mp4">
-</video>
+[mp4 실행 영상 보기](https://i.imgur.com/A8HcJDu.mp4)

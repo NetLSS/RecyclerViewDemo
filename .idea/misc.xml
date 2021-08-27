@@ -8,6 +8,7 @@
         <entry key="app/src/main/res/layout/content_main.xml" value="0.46979166666666666" />
         <entry key="app/src/main/res/layout/fragment_first.xml" value="0.46979166666666666" />
         <entry key="app/src/main/res/layout/fragment_second.xml" value="0.46979166666666666" />
+        <entry key="app/src/main/res/layout/recycler_view_item.xml" value="0.46979166666666666" />
       </map>
     </option>
   </component>

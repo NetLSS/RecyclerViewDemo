@@ -27,7 +27,7 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             tools:src="@android:drawable/ic_menu_report_image"
-            tools:srcCompat="@tools:sample/backgrounds/scenic" />
+            tools:srcCompat="@sample/images" />
 
         <TextView
             android:id="@+id/itemTitle"
@@ -38,7 +38,7 @@
             app:layout_constraintLeft_toRightOf="@id/itemImage"
             app:layout_constraintStart_toEndOf="@id/itemImage"
             app:layout_constraintTop_toTopOf="parent"
-            tools:text="@tools:sample/full_names" />
+            tools:text="@sample/chapters" />
 
         <TextView
             android:id="@+id/itemDetail"
@@ -49,7 +49,7 @@
             app:layout_constraintLeft_toRightOf="@+id/itemImage"
             app:layout_constraintStart_toEndOf="@+id/itemImage"
             app:layout_constraintTop_toBottomOf="@+id/itemTitle"
-            tools:text="@tools:sample/first_names" />
+            tools:text="@sample/items" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 
 </androidx.cardview.widget.CardView>
